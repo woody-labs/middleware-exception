@@ -18,11 +18,6 @@ class ExceptionMiddleware implements MiddlewareInterface
 {
 
     /**
-     * @var callable
-     */
-    protected $kernelGenerator;
-
-    /**
      * ExceptionMiddleware constructor.
      */
     public function __construct()
