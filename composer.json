@@ -1,0 +1,27 @@
+{
+    "name": "woody/middleware-exception",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastien Malot",
+            "email": "sebastien@malot.fr"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "symfony/http-kernel": "^4.0",
+        "woody/http-server-middleware": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Woody\\Middleware\\Exception\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
