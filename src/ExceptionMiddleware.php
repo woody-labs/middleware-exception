@@ -44,7 +44,7 @@ class ExceptionMiddleware implements MiddlewareInterface
     {
         try {
             $response = $handler->handle($request);
-        } catch(HttpExceptionInterface $e) {
+        } catch (HttpExceptionInterface $e) {
             $response = new Response($e->getStatusCode(), $e->getHeaders(), $e->getMessage());
         } catch (\Throwable $t) {
             $response = new Response(500, [], 'Internal Error');
