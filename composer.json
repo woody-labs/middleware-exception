@@ -1,6 +1,6 @@
 {
     "name": "woody/middleware-exception",
-    "description": "",
+    "description": "Middleware PSR-15 compliant which handle Exceptions",
     "type": "library",
     "license": "MIT",
     "authors": [
