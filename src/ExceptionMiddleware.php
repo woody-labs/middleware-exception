@@ -2,11 +2,11 @@
 
 namespace Woody\Middleware\Exception;
 
-use GuzzleHttp\Psr7\Response;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
+use Woody\Http\Message\Exception\HttpExceptionInterface;
+use Woody\Http\Message\Response;
 use Woody\Http\Server\Middleware\MiddlewareInterface;
 
 /**
